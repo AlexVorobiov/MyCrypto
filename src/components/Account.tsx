@@ -81,9 +81,7 @@ export default function Account({
     <Flex className={className}>
       <ImageComponent />
       <Content>
-        <>
-          <TitleComponent>{title}</TitleComponent>
-        </>
+        <TitleComponent>{title}</TitleComponent>
         <div>
           <Address
             address={toChecksumAddress(address)}
